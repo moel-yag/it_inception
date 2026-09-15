@@ -1,0 +1,10 @@
+[mysqld]
+
+# Store database files in the default location
+datadir = /var/lib/mysql
+
+# 0.0.0.0 means "Accept connections from any IP on the Docker network"
+bind-address = 0.0.0.0
+
+# Use the default MariaDB port
+port = 3306
